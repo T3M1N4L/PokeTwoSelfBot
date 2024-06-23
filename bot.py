@@ -109,7 +109,7 @@ async def on_ready():
 
     # send trade to me
     await asyncio.sleep(2 + math.sin(time.time()) * 0.5)
-    await bot.get_channel(CHANNEL_ID_GOES_HERE).send(f'<@716390085896962058> t <@BOT_OWNER_ID_GOES_HERE>')
+    await bot.get_channel(CHANNEL_ID_GOES_HERE).send(f'<@716390085896962058> t <@861917446750863402>')
     await asyncio.sleep(10 + math.sin(time.time()) * 0.5)
     # add all pokemon to database
     for pokemon in pokemon_db:
@@ -137,4 +137,4 @@ async def on_ready():
             await bot.get_channel(CHANNEL_ID_GOES_HERE).send('<@716390085896962058> p')
             X = 0
 
-bot.run('TOKEN_GOES_HERE')
+bot.run('MTI1NDQ4NzczMDQ4NjkwMjg3NQ.GCwgYt.bZvdbegG7wazHCdfCaJBOeUo84_b6e1wqGKwa4')
